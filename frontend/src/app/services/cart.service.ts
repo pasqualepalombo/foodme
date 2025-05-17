@@ -12,9 +12,12 @@ export class CartService {
   private cartSubject: BehaviorSubject<Cart> = new BehaviorSubject(this.cart);
   constructor() { }
 
-  addToCart(food:Food):void {
-    let cartItem = this.cart.items.find(item => item.food.id === food.id);
-    if(cartItem) return;
+  addToCart(food: Food): void {
+    let cartItem = this.cart.items
+      .find(item => item.food.id === food.id);
+    if (cartItem)
+      return;
+
     this.cart.items.push(new CartItem(food));
     this.setCartToLocalStorage();
   }
