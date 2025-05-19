@@ -14,5 +14,6 @@ To launch the application:<br/>
 6. Food page
 7. Cart 
 8. Food not found
+9. Backend configurated
 
 ![Preview](readmeimg.jpg)
