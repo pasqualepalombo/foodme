@@ -15,5 +15,6 @@ To launch the application:<br/>
 7. Cart 
 8. Food not found
 9. Backend configurated
+10. Account Login
 
 ![Preview](readmeimg.jpg)
