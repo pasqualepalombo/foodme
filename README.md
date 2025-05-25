@@ -18,5 +18,6 @@ To launch the application:<br/>
 8. Food not found
 9. Backend configurated
 10. Account Login
+11. MongoDB Atlas connection
 
 ![Preview](readmeimg.jpg)
