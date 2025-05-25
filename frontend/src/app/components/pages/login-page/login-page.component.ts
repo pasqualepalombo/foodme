@@ -1,17 +1,17 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, FormControl, Validators, ReactiveFormsModule } from '@angular/forms';
 import { TitleComponent } from "../../partials/title/title.component";
-import { NgIf } from '@angular/common';
 import { UserService } from '../../../services/user.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { User } from '../../../shared/models/User';
-import { InputContainerComponent } from "../../partials/input-container/input-container.component";
-import { InputValidationComponent } from "../../partials/input-validation/input-validation.component";
+
+import { TextInputComponent } from "../../partials/text-input/text-input.component";
+import { DefaultButtonComponent } from "../../partials/default-button/default-button.component";
 
 
 @Component({
   selector: 'app-login-page',
-  imports: [TitleComponent, ReactiveFormsModule, NgIf, InputContainerComponent, InputValidationComponent],
+  imports: [TitleComponent, ReactiveFormsModule, TextInputComponent, DefaultButtonComponent],
   templateUrl: './login-page.component.html',
   styleUrl: './login-page.component.css'
 })

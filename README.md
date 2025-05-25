@@ -3,7 +3,9 @@
 To launch the application:<br/>
 1 - Download the entire project<br/>
 2 - Make sure Node.js and Angular v19+ are installed<br/>
-3 - Open any terminal, navigate to the frontend folder, and run "ng serve -o"<br/>
+3 - Update or Download the needed modules
+4 - Open any terminal, navigate to the frontend folder, and run "ng serve -o"<br/>
+5 - Open any terminal, navigate to the backend folder, and run "npm start"<br/>
 
 ## Dev logs
 1. App init
