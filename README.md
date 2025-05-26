@@ -19,5 +19,6 @@ To launch the application:<br/>
 9. Backend configurated
 10. Account Login
 11. MongoDB Atlas connection
+12. Backend Models e AsyncHadler
 
 ![Preview](readmeimg.jpg)
