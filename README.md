@@ -20,5 +20,6 @@ To launch the application:<br/>
 10. Account Login
 11. MongoDB Atlas connection
 12. Backend Models e AsyncHadler
+13. RegisterPage
 
 ![Preview](readmeimg.jpg)
